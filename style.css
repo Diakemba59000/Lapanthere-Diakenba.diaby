@@ -19,6 +19,10 @@ a:hover {
     cursor: pointer;
 }
 
+li:focus {
+text-decoration: underline;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -337,7 +341,8 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
-}
+    text-decoration: underline  #c27956;
+    }
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
@@ -452,6 +457,12 @@ nav .caret {
     margin: 0 5px 5px 0;
 }
 
+.btn:focus {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.3);
+    text-decoration: underline;
+  }
+
 .btn.pull-right {
     margin: 0 0 5px 5px;
 }
@@ -460,7 +471,8 @@ nav .caret {
 .btn-d:hover,
 .btn-d:focus {
     color: #FFF;
-    background: rgba(0, 0, 0, .3);
+    background: #c27956;
+
 }
 
 button {
@@ -562,6 +574,12 @@ a[data-lightbox]:hover img {
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
 }
+
+a[data-lightbox]:focus img {
+    opacity: 0.16;
+    -webkit-animation-fill-mode: none;
+    animation-fill-mode: none;
+  }
 
 #lightbox-modal {
     display: flex;
@@ -709,6 +727,10 @@ p {
     margin: auto auto auto auto;
 }
 
+.row-no-gutters :focus{
+text-decoration: underline  black;
+}
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -800,6 +822,10 @@ h4 {
 
 .ltc-white:hover {
     color: #cccccc!important;
+}
+
+.ltc-white:focus {
+    font-size: xx-large;
 }
 
 .ltc-atomic-tangerine {
