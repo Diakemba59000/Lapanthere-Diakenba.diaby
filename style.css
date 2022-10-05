@@ -727,7 +727,7 @@ p {
     margin: auto auto auto auto;
 }
 
-.row-no-gutters :focus{
+.col-sm-3:focus{
 text-decoration: underline  black;
 }
 
@@ -854,7 +854,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.png");
 }
 
 @media (max-width: 1024px) {
@@ -1088,4 +1088,10 @@ color: black !important;
 .text-center{
     text-align: center;
 }
+
+
+.social_button:focus{
+border:solid 3px #000;
+}
+
 
