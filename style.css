@@ -795,6 +795,7 @@ h4 {
 
 .bgc-dark-slate-blue {
     background-color: #364577;
+   
 }
 
 .bgc-atomic-tangerine {
@@ -802,7 +803,7 @@ h4 {
 }
 
 .tc-white {
-    color: #f3976c !important;
+    color: #c27956!important;
     
 }
 
@@ -1094,4 +1095,12 @@ color: black !important;
 border:solid 3px #000;
 }
 
+.white-banner{
+    color: white !important;
+    background-color: rgba(0, 0, 0, 0.556);
+}
 
+
+.black-text{
+    color: black !important;
+}
